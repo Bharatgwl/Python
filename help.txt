@@ -1,0 +1,16 @@
+void selection_sort(int arr[])
+{
+    for (int i = 0; i < 5; i++)
+    {
+        int min_elem = i;
+        for (int j = i + 1; j < 5; j++)
+        {
+            if (arr[j] < arr[min_elem])
+            {
+                min_elem = j;
+            }
+        }
+        swap(&arr[i], &arr[min_elem]);
+    }
+    return;
+}
