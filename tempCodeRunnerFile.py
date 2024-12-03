@@ -1,1 +1,1 @@
-y = sigmoid(x)
+a
